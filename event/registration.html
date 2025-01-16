@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Event Registration</h1>
+    </header>
+    <main>
+        <form action="#" method="POST" class="registration-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="regNumber">Registration Number:</label>
+            <input type="text" id="regNumber" name="regNumber" required>
+
+            <label for="eventName">Event Name:</label>
+            <input type="text" id="eventName" name="eventName" required placeholder="Enter Event Name">
+
+            <button type="submit">Register</button>
+            <button type="button" onclick="alert('Redirecting to Payment Gateway')" disabled>Payment</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Event Management Portal</p>
+    </footer>
+</body>
+</html>
